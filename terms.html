@@ -1,1 +1,197 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>利用規約 / Terms of Service — MyArrange</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      font-size: 15px;
+      line-height: 1.8;
+      color: #222;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    h1 { font-size: 22px; margin-bottom: 4px; }
+    .subtitle { color: #666; font-size: 14px; margin-bottom: 8px; }
+    .date { font-size: 13px; color: #888; margin-bottom: 40px; }
+    .lang-toggle { margin-bottom: 32px; }
+    .lang-btn {
+      padding: 6px 20px;
+      border: 1px solid #ccc;
+      background: white;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .lang-btn.active { background: #222; color: white; border-color: #222; }
+    h2 { font-size: 16px; margin-top: 36px; margin-bottom: 8px; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
+    p { margin-bottom: 12px; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    li { margin-bottom: 6px; }
+    .lang-section { display: none; }
+    .lang-section.active { display: block; }
+    .company { font-size: 14px; color: #555; }
+  </style>
+</head>
+<body>
 
+<h1>利用規約 / Terms of Service</h1>
+<div class="subtitle">MyArrange</div>
+<div class="date">施行日 / Effective Date: 20__年__月__日</div>
+
+<div class="lang-toggle">
+  <button class="lang-btn active" onclick="switchLang('ja', this)">日本語</button>
+  <button class="lang-btn" onclick="switchLang('en', this)">English</button>
+</div>
+
+<!-- 日本語 -->
+<div class="lang-section active" id="lang-ja">
+
+  <h2>第1条（サービスの概要）</h2>
+  <p>GHOSTNOTE株式会社（以下「当社」）が提供するアプリケーション「MyArrange」（以下「本アプリ」）は、ダーツのアレンジをメモし、他のユーザーと共有できるサービスです。</p>
+  <p>本アプリをダウンロードまたは使用することにより、本規約に同意したものとみなします。</p>
+
+  <h2>第2条（利用資格）</h2>
+  <p>本アプリは年齢制限なくご利用いただけます。13歳未満のお子様がご利用になる場合は、保護者の同意が必要です。</p>
+  <p>本アプリは匿名認証を使用しており、アカウント登録は不要です。</p>
+
+  <h2>第3条（ユーザーコンテンツ）</h2>
+  <p>ユーザーが投稿するアレンジメモ等のコンテンツについて、以下のとおりとします。</p>
+  <ul>
+    <li>コンテンツの著作権はユーザーに帰属します。</li>
+    <li>投稿することで、当社および他のユーザーがアプリ内でそのコンテンツを表示・利用することを許諾するものとします。</li>
+    <li>投稿されたコンテンツは他のユーザーにも公開されます。</li>
+    <li>当社は、公序良俗に反するコンテンツを予告なく削除できるものとします。</li>
+  </ul>
+
+  <h2>第4条（禁止事項）</h2>
+  <p>ユーザーは以下の行為を行ってはなりません。</p>
+  <ul>
+    <li>公序良俗に反するコンテンツの投稿</li>
+    <li>他のユーザーへの誹謗中傷・ハラスメント</li>
+    <li>本アプリのシステムへの不正アクセス・改ざん</li>
+    <li>スパム行為・大量投稿</li>
+    <li>商業目的での無断利用</li>
+    <li>法令に違反する行為</li>
+  </ul>
+
+  <h2>第5条（課金・広告）</h2>
+  <p>本アプリは無料でご利用いただけますが、広告が表示されます。</p>
+  <ul>
+    <li><strong>広告解除：</strong>アプリ内課金により広告を非表示にできます。課金はApple App Store / Google Play Storeを通じて処理されます。</li>
+    <li><strong>返金：</strong>各ストアの返金ポリシーに従います。</li>
+    <li><strong>購入の復元：</strong>同一のApple ID / Googleアカウントで「購入を復元」機能によりご利用いただけます。</li>
+  </ul>
+
+  <h2>第6条（データの取扱い）</h2>
+  <ul>
+    <li>アレンジメモは端末にローカル保存されます。</li>
+    <li>投稿されたアレンジはFirebase（Google LLC）のサーバーに保存されます。</li>
+    <li>本アプリはFirebase匿名認証を使用しており、個人を特定する情報は収集しません。</li>
+    <li>詳細は別途プライバシーポリシーをご確認ください。</li>
+  </ul>
+
+  <h2>第7条（免責事項）</h2>
+  <p>本アプリは「現状有姿」で提供されます。当社は以下について責任を負いません。</p>
+  <ul>
+    <li>本アプリの利用により生じた損害</li>
+    <li>サービスの一時停止・中断により生じた損害</li>
+    <li>ユーザーが投稿したコンテンツの内容</li>
+  </ul>
+
+  <h2>第8条（サービスの変更・終了）</h2>
+  <p>当社は、予告なく本アプリの機能を変更、またはサービスを終了することができます。サービス終了時には、可能な限り事前にお知らせします。</p>
+
+  <h2>第9条（準拠法・管轄）</h2>
+  <p>本規約は日本法に準拠します。本規約に関する紛争については、東京地方裁判所を第一審の専属的合意管轄裁判所とします。</p>
+
+  <h2>第10条（お問い合わせ）</h2>
+  <div class="company">
+    <p>GHOSTNOTE株式会社<br>
+    メール：[お問い合わせメールアドレス]<br>
+    所在地：[住所]</p>
+  </div>
+
+</div>
+
+<!-- English -->
+<div class="lang-section" id="lang-en">
+
+  <h2>Article 1 (Overview)</h2>
+  <p>MyArrange (the "App") is provided by GHOSTNOTE Inc. ("we" or "us") and allows users to record darts checkout arrangements and share them with other users.</p>
+  <p>By downloading or using the App, you agree to these Terms of Service.</p>
+
+  <h2>Article 2 (Eligibility)</h2>
+  <p>The App is available to users of all ages. Users under 13 must have parental consent. No account registration is required as the App uses anonymous authentication.</p>
+
+  <h2>Article 3 (User Content)</h2>
+  <ul>
+    <li>You retain copyright ownership of content you post.</li>
+    <li>By posting, you grant us and other users a license to display and use that content within the App.</li>
+    <li>Posted content is visible to other users.</li>
+    <li>We may remove content that violates public order or morals without prior notice.</li>
+  </ul>
+
+  <h2>Article 4 (Prohibited Activities)</h2>
+  <p>You agree not to:</p>
+  <ul>
+    <li>Post content that violates public order or morals</li>
+    <li>Harass or defame other users</li>
+    <li>Attempt unauthorized access to or tampering with the App</li>
+    <li>Send spam or make excessive posts</li>
+    <li>Use the App for unauthorized commercial purposes</li>
+    <li>Violate any applicable laws</li>
+  </ul>
+
+  <h2>Article 5 (Purchases & Advertising)</h2>
+  <p>The App is free but displays advertisements.</p>
+  <ul>
+    <li><strong>Ad Removal:</strong> Ads can be removed via in-app purchase through the Apple App Store or Google Play Store.</li>
+    <li><strong>Refunds:</strong> Subject to the respective store's refund policy.</li>
+    <li><strong>Restore Purchases:</strong> Use "Restore Purchases" with the same Apple ID or Google account after changing devices.</li>
+  </ul>
+
+  <h2>Article 6 (Data Handling)</h2>
+  <ul>
+    <li>Arrangement notes are stored locally on your device.</li>
+    <li>Posted arrangements are stored on Firebase (Google LLC) servers.</li>
+    <li>The App uses Firebase Anonymous Authentication and does not collect personally identifiable information.</li>
+    <li>Please refer to our Privacy Policy for details.</li>
+  </ul>
+
+  <h2>Article 7 (Disclaimer)</h2>
+  <p>The App is provided "as is." We are not liable for:</p>
+  <ul>
+    <li>Damages arising from use of the App</li>
+    <li>Damages caused by service interruptions</li>
+    <li>Content posted by users</li>
+  </ul>
+
+  <h2>Article 8 (Changes & Termination)</h2>
+  <p>We reserve the right to modify or discontinue the App at any time. We will make reasonable efforts to notify users in advance of any discontinuation.</p>
+
+  <h2>Article 9 (Governing Law)</h2>
+  <p>These Terms are governed by the laws of Japan. Any disputes shall be subject to the exclusive jurisdiction of the Tokyo District Court.</p>
+
+  <h2>Article 10 (Contact)</h2>
+  <div class="company">
+    <p>GHOSTNOTE Inc.<br>
+    Email: [Contact Email Address]<br>
+    Address: [Address]</p>
+  </div>
+
+</div>
+
+<script>
+  function switchLang(lang, btn) {
+    document.querySelectorAll('.lang-section').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.lang-btn').forEach(el => el.classList.remove('active'));
+    document.getElementById('lang-' + lang).classList.add('active');
+    btn.classList.add('active');
+  }
+</script>
+
+</body>
+</html>

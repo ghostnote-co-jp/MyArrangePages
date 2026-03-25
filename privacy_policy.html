@@ -1,1 +1,245 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プライバシーポリシー / Privacy Policy — MyArrange</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      font-size: 15px;
+      line-height: 1.8;
+      color: #222;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    h1 { font-size: 22px; margin-bottom: 4px; }
+    .subtitle { color: #666; font-size: 14px; margin-bottom: 8px; }
+    .date { font-size: 13px; color: #888; margin-bottom: 40px; }
+    .lang-toggle { margin-bottom: 32px; }
+    .lang-btn {
+      padding: 6px 20px;
+      border: 1px solid #ccc;
+      background: white;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .lang-btn.active { background: #222; color: white; border-color: #222; }
+    h2 { font-size: 16px; margin-top: 36px; margin-bottom: 8px; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
+    p { margin-bottom: 12px; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    li { margin-bottom: 6px; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 16px; font-size: 14px; }
+    th, td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; }
+    th { background: #f5f5f5; font-weight: 500; }
+    .lang-section { display: none; }
+    .lang-section.active { display: block; }
+    .company { font-size: 14px; color: #555; }
+    .note { font-size: 13px; color: #888; margin-top: 40px; }
+  </style>
+</head>
+<body>
 
+<h1>プライバシーポリシー / Privacy Policy</h1>
+<div class="subtitle">MyArrange</div>
+<div class="date">最終更新日 / Last updated: 2026年__月__日</div>
+
+<div class="lang-toggle">
+  <button class="lang-btn active" onclick="switchLang('ja', this)">日本語</button>
+  <button class="lang-btn" onclick="switchLang('en', this)">English</button>
+</div>
+
+<!-- 日本語 -->
+<div class="lang-section active" id="lang-ja">
+
+  <p>GHOSTNOTE株式会社（以下「当社」）は、「MyArrange」（以下「本アプリ」）における個人情報の取り扱いについて、以下のとおりプライバシーポリシーを定めます。</p>
+
+  <h2>1. 収集する情報</h2>
+  <p><strong>自動的に収集される情報</strong></p>
+  <table>
+    <tr><th>情報</th><th>目的</th></tr>
+    <tr><td>デバイス識別子（Firebase匿名認証によるUID）</td><td>ユーザーの識別、データの関連付け</td></tr>
+    <tr><td>アプリの利用状況（画面遷移、操作ログ等）</td><td>アプリの改善・バグ修正</td></tr>
+    <tr><td>広告識別子（IDFA / GAID）</td><td>AdMobによる広告配信の最適化</td></tr>
+    <tr><td>IPアドレス・デバイス情報（OS、バージョン等）</td><td>Firebase、AdMobによるサービス提供</td></tr>
+  </table>
+  <p><strong>ユーザーが入力・登録する情報</strong></p>
+  <table>
+    <tr><th>情報</th><th>目的</th></tr>
+    <tr><td>アレンジメモ（ダーツの上がり手順・一言メモ）</td><td>本アプリの機能提供、コミュニティへの共有</td></tr>
+    <tr><td>言語設定</td><td>アプリ表示言語の設定</td></tr>
+    <tr><td>ゲーム設定（ブル設定、アウトメソッド等）</td><td>アプリ機能の提供</td></tr>
+  </table>
+
+  <h2>2. 収集しない情報</h2>
+  <ul>
+    <li>氏名、住所、電話番号</li>
+    <li>メールアドレス</li>
+    <li>クレジットカード番号その他の決済情報（課金処理はApp Store / Google Playが管理）</li>
+    <li>位置情報</li>
+    <li>写真・カメラ・マイクへのアクセス</li>
+  </ul>
+
+  <h2>3. 情報の利用目的</h2>
+  <ul>
+    <li>本アプリのサービス提供および機能改善</li>
+    <li>コミュニティ機能（みんなのアレンジ）の提供</li>
+    <li>広告の表示</li>
+    <li>不正利用の防止</li>
+    <li>お問い合わせへの対応</li>
+  </ul>
+
+  <h2>4. 情報の保存場所</h2>
+  <table>
+    <tr><th>データ</th><th>保存場所</th></tr>
+    <tr><td>アレンジメモ・設定</td><td>お客様のデバイス内（ローカルストレージ）</td></tr>
+    <tr><td>アレンジメモ・いいね情報</td><td>Google Firebase Firestore（クラウド）</td></tr>
+    <tr><td>UID</td><td>お客様のデバイス内、およびFirebase Authentication</td></tr>
+  </table>
+
+  <h2>5. 第三者サービスへの情報提供</h2>
+  <p>本アプリは以下の第三者サービスを利用しており、各サービスのプライバシーポリシーに従ってデータが処理されます。</p>
+  <ul>
+    <li><strong>Firebase（Google LLC）</strong>：匿名認証、Firestoreデータ保存、Analytics<br>
+    <a href="https://firebase.google.com/support/privacy" target="_blank">https://firebase.google.com/support/privacy</a></li>
+    <li><strong>AdMob（Google LLC）</strong>：バナー広告・インタースティシャル広告の配信<br>
+    <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
+    <li><strong>App Store / Google Play（Apple Inc. / Google LLC）</strong>：サブスクリプション課金の処理（当社は決済情報を受け取りません）</li>
+  </ul>
+
+  <h2>6. データの保持期間</h2>
+  <ul>
+    <li>ローカルデータ：アプリのアンインストールまたはデータ削除操作を行うまで保持</li>
+    <li>Firestoreデータ：退会処理を行うまで保持</li>
+    <li>広告識別子：OSの設定に準じます</li>
+  </ul>
+
+  <h2>7. データの削除方法（退会処理）</h2>
+  <p>設定画面の「データを削除する」から、以下のデータを完全に削除できます。</p>
+  <ul>
+    <li>デバイス内のすべてのアレンジメモおよび設定</li>
+    <li>Firebase AuthenticationのユーザーUID</li>
+    <li>Firestore上のいいね情報</li>
+  </ul>
+  <p>なお、コミュニティに投稿されたアレンジデータは、他ユーザーとの共有データとして残る場合があります。</p>
+
+  <h2>8. 子どものプライバシー</h2>
+  <p>本アプリは13歳未満の方を対象としておらず、意図的に13歳未満の方の個人情報を収集することはありません。</p>
+
+  <h2>9. プライバシーポリシーの変更</h2>
+  <p>本ポリシーは、法令の改正やサービスの変更等に伴い、予告なく改定する場合があります。改定後のポリシーはアプリ内またはウェブサイト上に掲載した時点で効力を生じます。</p>
+
+  <h2>10. お問い合わせ</h2>
+  <div class="company">
+    <p>GHOSTNOTE株式会社<br>
+    メール：[お問い合わせメールアドレス]<br>
+    ウェブサイト：https://ghostnote-co-jp.github.io/MyArrangePages/</p>
+  </div>
+
+  <p class="note">※本書は草案です。公開前に法律の専門家にご確認ください。</p>
+
+</div>
+
+<!-- English -->
+<div class="lang-section" id="lang-en">
+
+  <p>GHOSTNOTE Inc. ("we," "our," or "us") operates the mobile application "MyArrange" (the "App"). This Privacy Policy describes how we collect, use, and handle your information.</p>
+
+  <h2>1. Information We Collect</h2>
+  <p><strong>Automatically Collected Information</strong></p>
+  <table>
+    <tr><th>Information</th><th>Purpose</th></tr>
+    <tr><td>Device identifier (UID via Firebase Anonymous Authentication)</td><td>User identification and data association</td></tr>
+    <tr><td>App usage data (screen transitions, interaction logs, etc.)</td><td>App improvement and bug fixing</td></tr>
+    <tr><td>Advertising identifier (IDFA / GAID)</td><td>Ad personalization via AdMob</td></tr>
+    <tr><td>IP address and device info (OS, version, etc.)</td><td>Service delivery by Firebase and AdMob</td></tr>
+  </table>
+  <p><strong>Information You Provide</strong></p>
+  <table>
+    <tr><th>Information</th><th>Purpose</th></tr>
+    <tr><td>Arrange notes (dart finish sequences and memos)</td><td>Core app functionality and community sharing</td></tr>
+    <tr><td>Language preference</td><td>App display language</td></tr>
+    <tr><td>Game settings (bull type, out method, etc.)</td><td>App functionality</td></tr>
+  </table>
+
+  <h2>2. Information We Do NOT Collect</h2>
+  <ul>
+    <li>Full name, address, or phone number</li>
+    <li>Email address</li>
+    <li>Credit card or other payment information (billing is handled by App Store / Google Play)</li>
+    <li>Location data</li>
+    <li>Access to photos, camera, or microphone</li>
+  </ul>
+
+  <h2>3. How We Use Your Information</h2>
+  <ul>
+    <li>Providing and improving the App's features and services</li>
+    <li>Operating the community feature (community arranges)</li>
+    <li>Displaying advertisements</li>
+    <li>Preventing fraudulent or abusive use</li>
+    <li>Responding to user inquiries</li>
+  </ul>
+
+  <h2>4. Data Storage</h2>
+  <table>
+    <tr><th>Data</th><th>Storage Location</th></tr>
+    <tr><td>Arrange notes and settings</td><td>User's device (local storage)</td></tr>
+    <tr><td>Arrange notes and like data</td><td>Google Firebase Firestore (cloud)</td></tr>
+    <tr><td>UID</td><td>User's device and Firebase Authentication</td></tr>
+  </table>
+
+  <h2>5. Third-Party Services</h2>
+  <p>The App uses the following third-party services. Your data may be processed in accordance with each service's privacy policy.</p>
+  <ul>
+    <li><strong>Firebase (Google LLC)</strong>: Anonymous authentication, Firestore data storage, Analytics<br>
+    <a href="https://firebase.google.com/support/privacy" target="_blank">https://firebase.google.com/support/privacy</a></li>
+    <li><strong>AdMob (Google LLC)</strong>: Banner and interstitial ad delivery<br>
+    <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
+    <li><strong>App Store / Google Play (Apple Inc. / Google LLC)</strong>: In-app subscription billing (we do not receive or store payment information)</li>
+  </ul>
+
+  <h2>6. Data Retention</h2>
+  <ul>
+    <li>Local data: Retained until the app is uninstalled or you perform a data deletion</li>
+    <li>Firestore data: Retained until you perform account deletion</li>
+    <li>Advertising identifiers: Subject to your OS privacy settings</li>
+  </ul>
+
+  <h2>7. Data Deletion</h2>
+  <p>You can delete all data associated with the App by tapping "Delete Data" in the Settings screen. This will permanently delete:</p>
+  <ul>
+    <li>All arrange notes and settings stored on your device</li>
+    <li>Your Firebase Authentication user record (UID)</li>
+    <li>Your like data stored on Firestore</li>
+  </ul>
+  <p>Please note that arrange content previously shared with the community may remain as shared community data.</p>
+
+  <h2>8. Children's Privacy</h2>
+  <p>The App is not directed at children under 13, and we do not knowingly collect personal information from children under 13.</p>
+
+  <h2>9. Changes to This Privacy Policy</h2>
+  <p>We may update this Privacy Policy from time to time. Changes will be effective when posted within the App or on our website.</p>
+
+  <h2>10. Contact Us</h2>
+  <div class="company">
+    <p>GHOSTNOTE Inc.<br>
+    Email: [Contact Email Address]<br>
+    Website: https://ghostnote-co-jp.github.io/MyArrangePages/</p>
+  </div>
+
+  <p class="note">* This is a draft. Please review with a legal professional before publishing.</p>
+
+</div>
+
+<script>
+  function switchLang(lang, btn) {
+    document.querySelectorAll('.lang-section').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.lang-btn').forEach(el => el.classList.remove('active'));
+    document.getElementById('lang-' + lang).classList.add('active');
+    btn.classList.add('active');
+  }
+</script>
+
+</body>
+</html>
